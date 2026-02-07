@@ -217,6 +217,15 @@ rule-providers:
     url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/telegramip.mrs"
     interval: 86400
 
+  riot-tw:
+    type: http
+    behavior: domain
+    format: text
+    path: ./ruleset/riot-tw.list
+    url: "https://raw.githubusercontent.com/xacboard/rules/refs/heads/master/riot-tw.list"
+    interval: 86400
+    
+
 rules:
   - RULE-SET,private,私有网络
   - RULE-SET,ads,广告域名
@@ -225,6 +234,7 @@ rules:
   - RULE-SET,microsoft-cn,微软服务
   - RULE-SET,apple-cn,苹果服务
   - RULE-SET,google-cn,谷歌服务
+  - RULE-SET,riot-tw,台湾节点
   - RULE-SET,games-cn,游戏服务
   - RULE-SET,ai,AI 平台
   - RULE-SET,networktest,网络测试
