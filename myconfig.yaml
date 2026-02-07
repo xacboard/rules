@@ -73,6 +73,7 @@ proxy-groups:
   - {name: AI 平台, type: select, proxies: [节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/ai.png"}
   - {name: Trackerslist, type: select, proxies: [全球直连, 节点选择], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/trackerslist.png"}
   - {name: 游戏服务, type: select, proxies: [全球直连, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/games-cn.png"}
+  - {name: 台服, type: select, proxies: [全球直连, 节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/games-cn.png"}
   - {name: 微软服务, type: select, proxies: [全球直连, 节点选择], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/microsoft-cn.png"}
   - {name: 谷歌服务, type: select, proxies: [全球直连, 节点选择], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/google-cn.png"}
   - {name: 苹果服务, type: select, proxies: [全球直连, 节点选择], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/apple-cn.png"}
@@ -234,7 +235,7 @@ rules:
   - RULE-SET,microsoft-cn,微软服务
   - RULE-SET,apple-cn,苹果服务
   - RULE-SET,google-cn,谷歌服务
-  - RULE-SET,riot-tw,台湾节点
+  - RULE-SET,riot-tw,台服
   - RULE-SET,games-cn,游戏服务
   - RULE-SET,ai,AI 平台
   - RULE-SET,networktest,网络测试
