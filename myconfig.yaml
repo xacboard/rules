@@ -43,7 +43,7 @@ tun:
   auto-route: true
   auto-detect-interface: true
   device: mihomo
-  strict-route: true
+  strict-route: false
 
 hosts:
   miwifi.com: [192.168.31.1, 127.0.0.1]
